@@ -1,0 +1,30 @@
+{"ts":1790234058689,"stream":"chat_reasoning","chunk":"{\"text\":\"User\",\"redacted\":false}"}
+{"ts":1790234058754,"stream":"chat_reasoning","chunk":"{\"text\":\" just said hello\",\"redacted\":false}"}
+{"ts":1790234058756,"stream":"chat_reasoning","chunk":"{\"text\":\". Simple greeting\",\"redacted\":false}"}
+{"ts":1790234058760,"stream":"chat_reasoning","chunk":"{\"text\":\", respond directly\",\"redacted\":false}"}
+{"ts":1790234058761,"stream":"chat_reasoning","chunk":"{\"text\":\". Per\",\"redacted\":false}"}
+{"ts":1790234058905,"stream":"chat_reasoning","chunk":"{\"text\":\" rules,\",\"redacted\":false}"}
+{"ts":1790234058919,"stream":"chat_reasoning","chunk":"{\"text\":\" chat language Hinglish.\",\"redacted\":false}"}
+{"ts":1790234058930,"stream":"chat_reasoning","chunk":"{\"text\":\" No\",\"redacted\":false}"}
+{"ts":1790234058944,"stream":"chat_reasoning","chunk":"{\"text\":\" tools needed.\",\"redacted\":false}"}
+{"ts":1790234058947,"stream":"chat_text","chunk":"Hello Kam"}
+{"ts":1790234058966,"stream":"chat_text","chunk":"lesh! 👋"}
+{"ts":1790234058972,"stream":"chat_text","chunk":"\n\nKya"}
+{"ts":1790234058972,"stream":"chat_text","chunk":" ha"}
+{"ts":1790234058972,"stream":"chat_text","chunk":"al hai"}
+{"ts":1790234059074,"stream":"chat_text","chunk":"? Bata"}
+{"ts":1790234059074,"stream":"chat_text","chunk":"o,"}
+{"ts":1790234059075,"stream":"chat_text","chunk":" a"}
+{"ts":1790234059075,"stream":"chat_text","chunk":"aj"}
+{"ts":1790234059183,"stream":"chat_text","chunk":" kya kar"}
+{"ts":1790234059184,"stream":"chat_text","chunk":"ne"}
+{"ts":1790234059188,"stream":"chat_text","chunk":" hain — k"}
+{"ts":1790234059189,"stream":"chat_text","chunk":"oi"}
+{"ts":1790234059299,"stream":"chat_text","chunk":" coding"}
+{"ts":1790234059305,"stream":"chat_text","chunk":" task, DSA"}
+{"ts":1790234059308,"stream":"chat_text","chunk":" problem, ya k"}
+{"ts":1790234059312,"stream":"chat_text","chunk":"uch"}
+{"ts":1790234059333,"stream":"chat_text","chunk":" aur"}
+{"ts":1790234059342,"stream":"chat_text","chunk":"?"}
+{"ts":1790234059529,"stream":"chat_usage","chunk":"{\"inputTokens\":8120,\"outputTokens\":67,\"cacheReadTokens\":4096,\"cacheWriteTokens\":0,\"cost\":0,\"totalInputTokens\":8120,\"totalOutputTokens\":67,\"totalCost\":0}"}
+{"ts":1790234059599,"stream":"chat_done","chunk":"{\"reason\":\"completed\",\"text\":\"Hello Kamlesh! 👋\\n\\nKya haal hai? Batao, aaj kya karne hain — koi coding task, DSA problem, ya kuch aur?\",\"iterations\":1,\"usage\":{\"inputTokens\":8120,\"outputTokens\":67,\"cacheReadTokens\":4096,\"cacheWriteTokens\":0,\"totalCost\":0}}"}

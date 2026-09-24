@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "lastUsedProvider": "cline",
+  "modes": {},
+  "providers": {
+    "cline": {
+      "settings": {
+        "provider": "cline",
+        "auth": {
+          "accessToken": "workos:eyJhbGciOiJSUzI1NiIsImtpZCI6InNzb19vaWRjX2tleV9wYWlyXzAxSzNBNTQxREZLR1FaRjE1R0Y4UkZNUDBWIn0.eyJleHRlcm5hbF9pZCI6InVzci0wMUtaM01CVkFQMTNBS0hKWFNIME5CMVk3SCIsImxhc3ROYW1lIjoic29mdG1pbnQiLCJmaXJzdE5hbWUiOiJrYW1sZXNoIiwiZW1haWwiOiJzb2Z0bWludGthbWxlc2hAZ21haWwuY29tIiwiaXNzIjoiaHR0cHM6Ly9hcGkud29ya29zLmNvbS91c2VyX21hbmFnZW1lbnQvY2xpZW50XzAxSzNBNTQxRk44VEEzRVBQSFREMjMyNUFSIiwic3ViIjoidXNlcl8wMUtaM01CVEtFUTBOTUEyTlM2WFlGRERWQSIsInNpZCI6InNlc3Npb25fMDFLWjNNQlY4UE1UNFZKUkQzR0hENzNFVkQiLCJqdGkiOiIwMU0zOVNDMEdSS0U4OFRNNEpaQUY1TTRBWiIsImF1dGhfdGltZSI6MTc4NTc1NDY3NiwiY2xpZW50X2lkIjoiY2xpZW50XzAxSzNBNTQxRk44VEEzRVBQSFREMjMyNUFSIiwiZXhwIjoxNzkwMjU5ODE4LCJpYXQiOjE3OTAyNTYyMTh9.FJqX1b52GUNcN2bYgg1YVBgLBR5fByqAUaSdUStgGEc_WyujEkv0-TDbfRNMoeL0TQpXsEcIxjNciN8nItZAXRT2Y7Jj7-AfAEu52_yKb-iaryG19qK5A7T0yYqm5Z2kjf35fUCptAP8CtuOIUEN6LGmaU6dQJJjpHye2UJnwsmySuGKAO-r0tKNYDLATaw3BHHIBdJGJJ3Sd_AOnJiweffKxje7JGJhYKA35I8hXsA6Qyscx1yFxKruUx5ItBzfbNazW8PTMzCNiT1BFr2X6yFn7ejYKfvMgQASprvWl5myAwsyIlI9DsSOjVI9YT047SAaWel1cdtDPnDyOCxD_w",
+          "refreshToken": "ciCaV9EHheOQOaAo6BgtBTXOB",
+          "expiresAt": 1790259818000,
+          "accountId": "usr-01KZ3MBVAP13AKHJXSH0NB1Y7H",
+          "metadata": {
+            "tokenType": "Bearer",
+            "userInfo": {
+              "subject": "user_01KZ3MBTKEQ0NMA2NS6XYFDDVA",
+              "clineUserId": "usr-01KZ3MBVAP13AKHJXSH0NB1Y7H",
+              "email": "softmintkamlesh@gmail.com",
+              "firstName": "kamlesh",
+              "lastName": "softmint",
+              "accounts": null,
+              "name": "kamlesh softmint"
+            },
+            "sessionStartedAtMs": 1789540056702,
+            "provider": "cline"
+          }
+        },
+        "model": "anthropic/claude-sonnet-5"
+      },
+      "updatedAt": "2026-09-24T13:33:00.345Z",
+      "tokenSource": "oauth"
+    },
+    "sapaicore": {
+      "settings": {
+        "provider": "sapaicore",
+        "model": "anthropic--claude-3.5-sonnet",
+        "sap": {
+          "useOrchestrationMode": true
+        }
+      },
+      "updatedAt": "2026-08-24T07:14:04.236Z",
+      "tokenSource": "migration"
+    }
+  }
+}

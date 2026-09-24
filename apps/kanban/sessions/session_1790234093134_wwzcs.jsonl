@@ -1,0 +1,10 @@
+{"ts":1790234095140,"stream":"chat_text","chunk":"Main **"}
+{"ts":1790234095430,"stream":"chat_text","chunk":"Cline** hoon, ek coding agent. OpenAI ChatGPT nahi hoon.\n\nMeri knowledge"}
+{"ts":1790234095617,"stream":"chat_text","chunk":" ki fixed cutoff date meri current system configuration mein explicitly provided"}
+{"ts":1790234095869,"stream":"chat_text","chunk":" nahi hai, isliye exact date nahi bata sakta. Current system"}
+{"ts":1790234096102,"stream":"chat_text","chunk":" date **24 September 2026** hai. Time-sensitive ya version-specific information ke liye mujhe web search"}
+{"ts":1790234096362,"stream":"chat_text","chunk":" ya project files verify karni padti hain—guessing nahi k"}
+{"ts":1790234096593,"stream":"chat_text","chunk":"arta.\n\nKya aap coding, debugging, project setup, ya kisi aur che"}
+{"ts":1790234096702,"stream":"chat_text","chunk":"ez mein help chahte hain?"}
+{"ts":1790234096748,"stream":"chat_usage","chunk":"{\"inputTokens\":8186,\"outputTokens\":120,\"cacheReadTokens\":127,\"cacheWriteTokens\":0,\"cost\":0,\"totalInputTokens\":8186,\"totalOutputTokens\":120,\"totalCost\":0}"}
+{"ts":1790234096767,"stream":"chat_done","chunk":"{\"reason\":\"completed\",\"text\":\"Main **Cline** hoon, ek coding agent. OpenAI ChatGPT nahi hoon.\\n\\nMeri knowledge ki fixed cutoff date meri current system configuration mein explicitly provided nahi hai, isliye exact date nahi bata sakta. Current system date **24 September 2026** hai. Time-sensitive ya version-specific information ke liye mujhe web search ya project files verify karni padti hain—guessing nahi karta.\\n\\nKya aap coding, debugging, project setup, ya kisi aur cheez mein help chahte hain?\",\"iterations\":1,\"usage\":{\"inputTokens\":8186,\"outputTokens\":120,\"cacheReadTokens\":127,\"cacheWriteTokens\":0,\"totalCost\":0}}"}

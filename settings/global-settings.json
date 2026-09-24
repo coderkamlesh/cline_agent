@@ -1,0 +1,10 @@
+{
+  "autoApproveReadFiles": true,
+  "autoApproveReadAllFiles": false,
+  "autoApproveEditFiles": false,
+  "autoApproveEditAllFiles": false,
+  "autoApproveExecuteSafeCommands": false,
+  "autoApproveExecuteAllCommands": false,
+  "autoApproveBrowser": false,
+  "autoApproveMcp": false
+}

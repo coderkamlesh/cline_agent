@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "session_id": "session_1790234033579_isjam",
+  "source": "desktop",
+  "pid": 15912,
+  "started_at": "2026-09-24T07:13:54.306Z",
+  "ended_at": "2026-09-24T11:19:19.673Z",
+  "exit_code": 1,
+  "status": "failed",
+  "interactive": true,
+  "provider": "cline",
+  "model": "cline-free/mimo-v2.6-flash",
+  "cwd": "C:\\Users\\softm\\.cline\\data\\workspaces\\chat",
+  "workspace_root": "C:\\Users\\softm\\.cline\\data\\workspaces\\chat",
+  "team_name": "team-bYy5h",
+  "enable_tools": true,
+  "enable_spawn": true,
+  "enable_teams": true,
+  "prompt": "<user_input mode=\"act\">hello</user_input>",
+  "metadata": {
+    "sessionHistoryOrigin": {
+      "mode": "user",
+      "version": "0.0.34"
+    },
+    "source": "desktop",
+    "provider": "cline",
+    "model": "cline-free/mimo-v2.6-flash",
+    "enableTools": true,
+    "interactive": true,
+    "mode": "act",
+    "systemPrompt": "",
+    "checkpointEnabled": true,
+    "autoApproveTools": true,
+    "title": "hello",
+    "totalCost": 0,
+    "aggregatedAgentsCost": 0,
+    "usage": {
+      "inputTokens": 8120,
+      "outputTokens": 67,
+      "cacheReadTokens": 4096,
+      "cacheWriteTokens": 0,
+      "totalCost": 0
+    },
+    "aggregateUsage": {
+      "inputTokens": 8120,
+      "outputTokens": 67,
+      "cacheReadTokens": 4096,
+      "cacheWriteTokens": 0,
+      "totalCost": 0
+    },
+    "terminal_marker": "failed_external_process_exit",
+    "terminal_marker_at": "2026-09-24T11:19:19.673Z",
+    "terminal_marker_pid": 15912,
+    "terminal_marker_source": "stale_session_reconciler"
+  },
+  "messages_path": "C:\\Users\\softm\\.cline\\data\\sessions\\session_1790234033579_isjam\\session_1790234033579_isjam.messages.json"
+}

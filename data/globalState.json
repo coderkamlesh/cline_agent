@@ -1,0 +1,71 @@
+{
+  "welcomeViewCompleted": true,
+  "__vscodeMigrationVersion": 3,
+  "clineVersion": "4.1.20",
+  "remoteRulesToggles": {},
+  "remoteWorkflowToggles": {},
+  "remoteSkillsToggles": {},
+  "openAiHeaders": {},
+  "sapAiCoreUseOrchestrationMode": true,
+  "ocaMode": "internal",
+  "planModeApiProvider": "cline",
+  "planModeOpenRouterModelId": "cline-free/glm-5.2",
+  "actModeApiProvider": "cline",
+  "actModeOpenRouterModelId": "cline-free/glm-5.2",
+  "lastShownAnnouncementId": "4.1",
+  "enableParallelToolCalling": true,
+  "dismissedBanners": [
+    {
+      "bannerId": "cline-pass-home-promo-v2",
+      "dismissedAt": 1785754722209
+    }
+  ],
+  "browserSettings": {
+    "viewport": {
+      "width": 900,
+      "height": 600
+    },
+    "remoteBrowserEnabled": false,
+    "remoteBrowserHost": "http://localhost:9222",
+    "chromeExecutablePath": "",
+    "disableToolUse": true,
+    "customArgs": ""
+  },
+  "autoApprovalSettings": {
+    "version": 2,
+    "enabled": true,
+    "favorites": [],
+    "maxRequests": 20,
+    "actions": {
+      "readFiles": true,
+      "readFilesExternally": false,
+      "editFiles": false,
+      "editFilesExternally": false,
+      "executeSafeCommands": true,
+      "executeAllCommands": false,
+      "useBrowser": false,
+      "useMcp": true
+    },
+    "enableNotifications": false
+  },
+  "workspaceRoots": [
+    {
+      "path": "c:\\kamlesh\\react\\mui-intellij-dashboard",
+      "name": "mui-intellij-dashboard",
+      "vcs": "none"
+    }
+  ],
+  "primaryRootIndex": 0,
+  "globalWorkflowToggles": {},
+  "globalClineRulesToggles": {},
+  "vscodeTerminalExecutionMode": "backgroundExec",
+  "__vscodeLegacyMcpSettingsMigration": {
+    "sources": {
+      "vscodeGlobalStorage": {
+        "path": "c:\\Users\\softm\\AppData\\Roaming\\Code\\User\\globalStorage\\saoudrizwan.claude-dev\\settings\\cline_mcp_settings.json",
+        "migratedAt": 1787555644056
+      }
+    }
+  },
+  "telemetrySetting": "enabled"
+}
