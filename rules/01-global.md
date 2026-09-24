@@ -28,13 +28,10 @@
   3. Edge cases not handled (be explicit — do not hide them)
 
 ## Language Preferences
-- DSA / algorithms / competitive programming: default language is **C++** (C++17 or later unless specified otherwise).
-  - Use standard library idioms (`std::vector`, `std::unordered_map`, `std::sort`, etc.).
-  - Prefer `#include <bits/stdc++.h>` only for competitive coding contexts; for general DSA code, use explicit includes.
-  - Do not silently switch to Python/Java for DSA unless the user explicitly asks.
-- Web / frontend work: React / JavaScript (or TypeScript if the project already uses it).
-- Backend work: Java / Spring Boot unless the project specifies otherwise.
+- DSA / algorithms / competitive programming: default is **C++ (C++17+)**. Never switch to Python/Java unless I explicitly ask.
+- For all other work: detect the stack from the project's dependency files (`package.json`, `pom.xml`, `go.mod`, `Cargo.toml`, etc.) and follow it. Do not impose a default when the project already declares one.
 
 ## Context
-- User: Kamlesh Kumar (Java/Spring Boot, React/JS, C++ for DSA).
+- I'm primarily a Java/Spring Boot and React developer.
+- I'm a Go learner — when working in Go, explain idiomatic patterns briefly.
 - Session memory resets between sessions. Rely strictly on workspace files. Do not assume prior context.
