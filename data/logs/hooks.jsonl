@@ -1,6 +1,0 @@
-{"ts":"2026-09-17T05:14:56.766Z","hookName":"session_shutdown","reason":"failed_external_process_exit","sessionId":"session_1789540141561_pwna2","pid":16448,"source":"stale_session_reconciler"}
-{"ts":"2026-09-24T11:19:19.013Z","hookName":"session_shutdown","reason":"failed_external_process_exit","sessionId":"session_1790238778157_yrjxd","pid":15912,"source":"stale_session_reconciler"}
-{"ts":"2026-09-24T11:19:19.070Z","hookName":"session_shutdown","reason":"failed_external_process_exit","sessionId":"session_1790234171654_v4bdh","pid":15912,"source":"stale_session_reconciler"}
-{"ts":"2026-09-24T11:19:19.647Z","hookName":"session_shutdown","reason":"failed_external_process_exit","sessionId":"session_1790234093134_wwzcs","pid":15912,"source":"stale_session_reconciler"}
-{"ts":"2026-09-24T11:19:19.673Z","hookName":"session_shutdown","reason":"failed_external_process_exit","sessionId":"session_1790234033579_isjam","pid":15912,"source":"stale_session_reconciler"}
-{"ts":"2026-09-24T11:19:19.689Z","hookName":"session_shutdown","reason":"failed_external_process_exit","sessionId":"session_1790227691165_9cvlk","pid":15912,"source":"stale_session_reconciler"}
