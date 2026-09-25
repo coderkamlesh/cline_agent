@@ -21,11 +21,40 @@
 ## Execution Rules
 - Verify: Confirm the goal before writing any code. Ask one clarifying question at a time — never bundle multiple doubts.
 - Context: Always check dependency files (package.json, pom.xml, build.gradle, requirements.txt, Cargo.toml, go.mod) for installed versions BEFORE using any third-party API. If version is unknown, ask — do not assume.
-- Build Constraint: Strictly DO NOT compile, build, test, lint, or run any command that executes code unless explicitly commanded by the user. No `npm run`, no `mvn`, no `pytest`, no `cargo build`, no `g++`.
+- Verification: You MUST verify your own work. Never report a change as working unless a check actually passed. Scoped tests and static checks are part of the normal loop, not a special exception.
+
+### Test Execution Tiers
+
+**Tier 1 — Run without asking.** Targeted checks scoped to files you just modified.
+- Always scope: a file path, a `-Dtest=` / `-run` / `::test_name` filter, plus `-count=1` where supported.
+- Static checks: `tsc --noEmit`, `eslint <file>`, `go vet ./pkg`, `mvn -DskipTests compile`.
+- Examples: `mvn -Dtest=FooTest test` · `go test ./internal/foo -run TestBar -count=1` · `npx vitest run src/foo/bar.test.ts` · `pytest tests/test_foo.py::test_bar`
+- State one line before running: which files changed, which tests cover them.
+- Never retry a blocked Tier 1 command. Report it and move on.
+
+**Tier 2 — Ask first.**
+- Full suite: `mvn test`, `npm test`, `go test ./...`.
+- Watch mode, coverage, `--update-snapshot`, `-am`, `--no-fail-fast`.
+- Anything starting a container, database, or server, or making a network call.
+- Anything writing generated output, lockfiles, `dist/`, or migrations.
+
+**Tier 3 — Never.**
+- Tests or commands touching production, real infrastructure, credentials, or real user data.
+- Deploys: `mvn install`, `mvn deploy`, `kubectl apply`, `db:reset`, `terraform apply`, `git push --force`.
+- Deleting or rewriting a test to make a run go green.
+
+### Test Integrity (non-negotiable)
+- NEVER edit a test to make it pass. A failing test is information, not an obstacle.
+- On failure, classify and report first: genuine product bug, stale/incorrect test, or environment issue — with the actual assertion output as evidence.
+- Propose the fix, then wait for approval. Do NOT silently patch production code to satisfy a test you believe is wrong.
+- If the test is correct and the behavior changed intentionally, say so explicitly and ask before updating the test.
+- Partial passes are not passes. Always report exact pass/fail/skip counts.
+
 - Reporting: After every change, state clearly:
   1. What was changed (files + summary)
-  2. What remains (remaining tasks)
-  3. Edge cases not handled (be explicit — do not hide them)
+  2. What was verified (exact commands run + result counts). If nothing was run, say "Not verified" — never imply otherwise.
+  3. What remains (remaining tasks)
+  4. Edge cases not handled (be explicit — do not hide them)
 
 ## Language Preferences
 - DSA / algorithms / competitive programming: default is **C++ (C++17+)**. Never switch to Python/Java unless I explicitly ask.
